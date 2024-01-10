@@ -33,8 +33,4 @@ X_start = int(input('Enter starting point of x: '))
 Y_start = int(input('Enter starting point of y: '))
 
 optimal_points = gradient_descent(input_expr, learning_rate, iteration, X_start, Y_start)
-<<<<<<< HEAD
 print("Optimal points are:", optimal_points[:2], "and optimal value of the function is:", optimal_points[2])
-=======
-print("Optimal points are:", optimal_points[:2], "and optimal value of the function is:", optimal_points[2])
->>>>>>> ecf4bdbc2fdda03a2f1ae9dc8201d5af893e64f5
